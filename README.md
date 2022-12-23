@@ -5,6 +5,7 @@
   <img src="/assets/spring.png" width="100px" height="100px" alt="logo Spring"> 
   <img src="/assets/mysql.png" width="100px" height="100px" alt="logo MySQL">
   <img src="/assets/postman.png" width="100px" height="100px" alt="logo Postman">
+  <img src="/assets/bootstrap.png" width="100px" height="100px" alt="logo Bootstrap">
 </p>
 
 
