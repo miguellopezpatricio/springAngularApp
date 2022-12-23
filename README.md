@@ -19,6 +19,10 @@ El frontend se comunicará al backend para solicitar los datos alojados en la BB
 - TO-DO: Accediendo desde el frontend al backend
 
 
+## RESUMEN DE PASOS REALIZADOS EN FRONTEND:
+- TO-DO
+
+
 ## RESUMEN DE PASOS REALIZADOS EN BACKEND:
 
 * Creación de proyecto en Spring con dependencias básicas: DevTools, JPA, ...
