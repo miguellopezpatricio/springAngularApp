@@ -1,7 +1,7 @@
 # springAngularApp
 
 <p align="center">
-  <img src="/assets/angular.png" width="50%" height="50%" alt="logo Angular"> 
+  <img src="/assets/angular.png" width="30px" height="30px" alt="logo Angular"> 
   <img src="/assets/spring.png" alt="logo Spring"> 
   <img src="/assets/mysql.png" alt="logo MySQL">
   <img src="/assets/postman.png" alt="logo Postman">
