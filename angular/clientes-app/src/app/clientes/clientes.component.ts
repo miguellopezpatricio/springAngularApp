@@ -10,9 +10,17 @@ import { ClienteService } from './cliente.service';
 })
 export class ClientesComponent {
 
+  clientes: Cliente[]
+
   constructor(private clienteService:ClienteService){}
 
-  clientes: Cliente[] = this.clienteService.getClientes()
 
+  ngOnInit(){
+
+    this.clienteService.getClientes()
+    .subscribe(
+      clientes => this.clientes = clientes
+    )
+  }
 
 }
