@@ -41,6 +41,7 @@ public class ClienteRestController {
 	}
 	
 	@PostMapping("/clientes")
+	@ResponseStatus
 	public Cliente create(@RequestBody Cliente cliente) {
 		
 		return clienteService.save(cliente);
