@@ -15,4 +15,5 @@ El frontend se comunicará al backend para solicitar los datos alojados en la BB
 
 
 - Desarrollo Frontend en Angular
-- TO-DO: Desarrollando Backend en Spring.
+- Desarrollando Backend en Spring
+- TO-DO: Accediendo desde el frontend al backend
