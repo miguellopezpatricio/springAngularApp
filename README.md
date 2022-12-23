@@ -1,4 +1,4 @@
-# springAngularApp
+<p align="center">SpringAngularApp</p>
 
 <p align="center">
   <img src="/assets/angular.png" width="100px" height="100px" alt="logo Angular"> 
