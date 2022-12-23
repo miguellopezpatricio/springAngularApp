@@ -14,4 +14,5 @@ Proyecto de prueba frontend con Angular y backend con Spring.
 El frontend se comunicará al backend para solicitar los datos alojados en la BBDD.
 
 
-- Desarrollando Frontend en Angular
+- Desarrollo Frontend en Angular
+- TO-DO: Desarrollando Backend en Spring
