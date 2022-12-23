@@ -17,3 +17,16 @@ El frontend se comunicará al backend para solicitar los datos alojados en la BB
 - Desarrollo Frontend en Angular
 - Desarrollando Backend en Spring
 - TO-DO: Accediendo desde el frontend al backend
+
+
+## RESUMEN DE PASOS REALIZADOS EN BACKEND:
+
+* Creación de proyecto en Spring con dependencias básicas: DevTools, JPA, ...
+* Configurar el datasource con los datos de acceso a BBDD
+* Creando BBDD en MySQL
+* Creación de Entity Cliente
+* Creación de las clases Repository y Service del Cliente
+* Crear RestController
+* Añadiendo datos de prueba
+* Uso de Postman para primera prueba de API
+* Configurar CORS para compartir recursos en API REST
