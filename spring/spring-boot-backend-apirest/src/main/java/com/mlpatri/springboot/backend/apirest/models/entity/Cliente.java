@@ -12,6 +12,12 @@ import javax.persistence.PrePersist;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
+import org.springframework.lang.Nullable;
 
 
 @Entity
@@ -24,18 +30,28 @@ public class Cliente implements Serializable{
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 	
+	@NotEmpty(message="no puede estar vacío")
+	@Size(min= 4, max=12, message="tamaño entre 4 y 12 caracteres")
+	@Column(nullable=false)
 	private String nombre;
+	
+	@NotEmpty(message="no puede estar vacío")
 	private String apellido;
+	
+	@NotEmpty(message="no puede estar vacío")
+	@Email(message="no es un mail bien formado")
+	@Column(nullable=false, unique=true)
 	private String email;
 	
+	@NotNull(message="no puede estar vacío")
 	@Column(name="create_at")
 	@Temporal(TemporalType.DATE)
 	private Date createAt;
 	
-	@PrePersist
-	public void prePersist() {
-		createAt = new Date();
-	}
+	// @PrePersist
+	// public void prePersist() {
+	//	createAt = new Date();
+	// }
 	
 	public Long getId() {
 		return id;

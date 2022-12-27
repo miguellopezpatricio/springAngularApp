@@ -16,7 +16,7 @@ El frontend se comunicará al backend para solicitar los datos alojados en la BB
 
 - Desarrollo Frontend en Angular
 - Desarrollando Backend en Spring
-- TO-DO: Accediendo desde el frontend al backend
+- Accediendo desde el frontend al backend
 
 
 ## RESUMEN DE PASOS REALIZADOS EN FRONTEND:
@@ -34,3 +34,5 @@ El frontend se comunicará al backend para solicitar los datos alojados en la BB
 * Añadiendo datos de prueba
 * Uso de Postman para primera prueba de API
 * Configurar CORS para compartir recursos en API REST
+* IMPLEMENTANDO AUTENTICACIÓN: Crear entidades Usuario y Role, 
+interface UsuarioDao, UsuarioService,... TODO
