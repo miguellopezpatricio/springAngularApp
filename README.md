@@ -34,4 +34,9 @@ El frontend se comunicará al backend para solicitar los datos alojados en la BB
 * Añadiendo datos de prueba
 * Uso de Postman para primera prueba de API
 * Configurar CORS para compartir recursos en API REST
-* IMPLEMENTANDO AUTENTICACIÓN: Crear entidades Usuario y Role y relaciones (se crearán las tablas en la BBDD gracias a las anotaciones correspondientes), interface UsuarioDao, UsuarioService,... TODO
+* IMPLEMENTANDO AUTENTICACIÓN: Crear entidades Usuario y Role y relaciones (se crearán las tablas en la BBDD gracias a las anotaciones correspondientes), interface UsuarioDao, UsuarioService,... TODO: falla al implementar RSA.
+
+
+# Enlaces de interés:
+
+* [Cómo instalar OpenSSl](https://fedingo.com/how-to-install-openssl-in-ubuntu/)
